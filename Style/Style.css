@@ -1,83 +1,59 @@
 @font-face {
 	font-family: letrasequisde;
 	src: url(Note_this.ttf);
-
+	border: 10px solid #2e1705;
 }
-
-.bg_image_2 {
-  background-image: url(ezgif.com-gif-maker.gif);
-  background-size: cover;
-}
-
-
-
-.form-register {
-
-width: 400PX;
-background: #ffffff;
-padding: 30px;
-margin: auto;
-margin-top: 100px;
-border-radius: 4px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: rgb(219, 12, 12);
-}
-.form-register  h4{
-font-size: 22px;
-margin-bottom: 20px;
-}
-
-.controls {
-width:100%;
-background: orange;
-padding: 10px;
-border-radius: 4px;
-margin-bottom: 16px;
-border: 1px solid black;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 18px;
-}
-
-.form-register p {
-height: 40px;
-text-align: center;
-font-size: 18px;
-}
-
-.form-register a {
-	color: aqua;
-	text-decoration: none;	
-
-}
-
-.form-register a:hover {
-
-color:aqua;
-text-decoration: underline;
-
-}
-
-.form-register .botons {
-width: 100%;
-background-color: rgb(15, 58, 58);
-border: none;
-padding: 12px;
-color: darkgoldenrod;
-margin: 16px 0;
-font-size: 16px;
-}
-
-
-
-
-
-
 
 body{
 	margin: 0px;
 	width: 90vw;
 	background-color: black;
 	}
+
+#ml{
+	margin-top:-12px;
+	margin-left: -58px;
+	font-size: 40px;
+	width: 128px;
+	height: 70px;
+	background-image: url('TBmls.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+	transform: translate3d(0px, 0px, 0px);
+}
+
+#cab{
+	position: fixed;
+	height: 77px;
+	background-color: rgb(0, 0, 0);
+	width: 98.1vw;
+	z-index: 10;
+	border: 6px solid #ffffff;
+	z-index: 11;
+
+
+}
+
+#cab::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+	background-image: url(caca.gif);
+	opacity: 0.4;
+
+  }
+
+
+
+#fs{
+
+	height: 89px;
+
+}
 
 #Fondo1 {
 	margin: auto;
