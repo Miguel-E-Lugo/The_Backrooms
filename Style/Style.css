@@ -494,7 +494,8 @@ color: black;
 }
 
 #footer { 
-    position: fixed;
+    position: absolute;
+	bottom: auto;
 	background-color: rgb(0, 0, 0);
 	width: 98.1vw;
 	z-index: 10;
