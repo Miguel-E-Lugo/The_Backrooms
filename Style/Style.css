@@ -493,7 +493,7 @@ color: black;
 	text-align: center;
 }
 
-.footer { 
+#footer { 
     position: absolute; 
     bottom: 0; 
     left: 0; 
