@@ -496,6 +496,7 @@ color: black;
 #footer { 
     position: absolute;
 	bottom: auto;
+	height: 77px;
 	background-color: rgb(0, 0, 0);
 	width: 98.1vw;
 	z-index: 10;
