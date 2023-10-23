@@ -494,8 +494,11 @@ color: black;
 }
 
 #footer { 
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    z-index: 10;
+    position: fixed;
+	height: 77px;
+	background-color: rgb(0, 0, 0);
+	width: 98.1vw;
+	z-index: 10;
+	border: 6px solid #ffffff;
+	z-index: 11;
 }
