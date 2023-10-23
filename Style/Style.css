@@ -493,6 +493,19 @@ color: black;
 	text-align: center;
 }
 
+#up{
+	margin-top:-12px;
+	margin-left: -58px;
+	font-size: 40px;
+	width: 128px;
+	height: 70px;
+	background-image: url('TBmls.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+	transform: translate3d(0px, 0px, 0px);
+}
+
 #footer { 
     position: absolute;
 	bottom: auto;
