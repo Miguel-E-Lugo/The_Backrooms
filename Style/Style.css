@@ -492,3 +492,10 @@ color: black;
 	font-size: 25px;
 	text-align: center;
 }
+
+.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+}
