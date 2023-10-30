@@ -516,5 +516,14 @@ color: black;
 }
 
 #Instagram {
-background-image: url(ins.png)
+	margin-top:-12px;
+	margin-left: -20px;
+	font-size: 40px;
+	width: 128px;
+	height: 70px;
+	background-image: url('ins.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+	transform: translate3d(0px, 0px, 0px);
 }
