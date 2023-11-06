@@ -520,21 +520,25 @@ color: black;
 #Instagram {
     width: 35px;
     height: 35px;
+	position: absolute;
 }
 
 #Facebook {
     width: 35px;
     height: 35px;
+	position: absolute;
 }
 
 #Twitter {
     width: 35px;
     height: 35px;
+	position: absolute;
 }
 
 #GitHub {
     width: 35px;
     height: 35px;
+	position: absolute;
 }
 
 #ted {
