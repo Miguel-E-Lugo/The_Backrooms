@@ -493,37 +493,53 @@ color: black;
 	text-align: center;
 }
 
-#up{
-	margin-top:-12px;
-	margin-left: -58px;
-	font-size: 40px;
-	width: 128px;
-	height: 70px;
-	background-image: url('esc.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-    background-position: center;
-	transform: translate3d(0px, 0px, 0px);
-}
-
 #footer { 
     position: absolute;
 	bottom: auto;
-	height: 77px;
+	height: 94px;
 	background-color: rgb(0, 0, 0);
-	width: 98.1vw;
+	width: 98vw;
 	border: 6px solid #ffffff;
+	display: inline-block;
+	text-align: right;
+}
+
+#ulg{
+	width: 40px;
+    height: 40px;
+	margin-right: 1200px ;
+}
+
+#redes {
+
+ margin-top: 32px;
+ margin-right: 10px;
+
 }
 
 #Instagram {
-	margin-top:10px;
-	margin-left: -20px;
-	font-size: 40px;
-	width: 128px;
-	height: 70px;
-	background-image: url('ins.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-    background-position: center;
-	transform: translate3d(0px, 0px, 0px);
+    width: 35px;
+    height: 35px;
 }
+
+#Facebook {
+    width: 35px;
+    height: 35px;
+}
+
+#Twitter {
+    width: 35px;
+    height: 35px;
+}
+
+#GitHub {
+    width: 35px;
+    height: 35px;
+}
+
+#ted {
+
+	display: inline-flex;
+
+}
+
